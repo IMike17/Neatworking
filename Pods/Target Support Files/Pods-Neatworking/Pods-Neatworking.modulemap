@@ -1,0 +1,6 @@
+module Pods_Neatworking {
+  umbrella header "Pods-Neatworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
