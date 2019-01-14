@@ -20,6 +20,6 @@ s.dependency 'Alamofire', '4.8.0'
 s.dependency 'AlamofireObjectMapper', '5.2.0'
 s.dependency 'RxSwift', '4.4.0'
 
-s.source_files = "Neatworking/**/*.{swift}"
+s.source_files = "Neatworking/*.{swift}"
 
 end
