@@ -120,6 +120,7 @@
 				TargetAttributes = {
 					ECE102A021ECEDA6007EC894 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -312,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D156AD60CFC7D1637BC4383 /* Pods-Neatworking.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -330,6 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.imike.Neatworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 163D55C9247DB58332573523 /* Pods-Neatworking.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
