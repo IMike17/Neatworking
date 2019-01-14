@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E0DDBFCBDA317105998C71F7 /* libPods-Neatworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 061608E1E61EEC45F8A1C1EB /* libPods-Neatworking.a */; };
 		ECE102A621ECEDA6007EC894 /* Neatworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE102A421ECEDA6007EC894 /* Neatworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE102B321ED0AF3007EC894 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE102B221ED0AF3007EC894 /* Temp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		ECE102A121ECEDA6007EC894 /* Neatworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neatworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE102A421ECEDA6007EC894 /* Neatworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neatworking.h; sourceTree = "<group>"; };
 		ECE102A521ECEDA6007EC894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE102B221ED0AF3007EC894 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				ECE102A421ECEDA6007EC894 /* Neatworking.h */,
 				ECE102A521ECEDA6007EC894 /* Info.plist */,
+				ECE102B221ED0AF3007EC894 /* Temp.swift */,
 			);
 			path = Neatworking;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE102B321ED0AF3007EC894 /* Temp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
