@@ -13,13 +13,15 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "IMike17" => "iovinomic@gmail.com" }
 s.homepage = "https://github.com/IMike17/Neatworking"
-s.source = { :git => "https://github.com/IMike17/Neatworking.git",
-:tag => "#{s.version}" }
+s.source 	= { 
+	:git => "https://github.com/IMike17/Neatworking.git",
+	:tag => "#{s.version}"
+}
 
 s.dependency 'Alamofire', '4.8.0'
 s.dependency 'AlamofireObjectMapper', '5.2.0'
 s.dependency 'RxSwift', '4.4.0'
 
-s.source_files = "Neatworking/*.{swift}"
+s.source_files = 'Neatworking/**/*.{swift}'
 
 end
